@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/lamp.jfif);
+    width: 80%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.btn{
+    padding: 8px 30px;
+    border-radius: 20px;
+    outline: none;
+    border:1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: rgba(255, 225, 225, 0.4);
+    border: 1px solid rgba(255, 225, 225, 0.4);
+}
+
+.container{
+    padding:20px 50px;
+}
+.row {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    color: white;
+    z-index: 1;
+}
+
+header .container .row .juno-icon {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    padding: 10 15px;
+    margin-top: 5px;
+    color:#fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header .container .row .navbar {
+    display: flex;
+}
+
+header .container .row .navbar .navbar-list ul{
+    display: flex;
+    list-style: none;
+}
+
+header .container .row .navbar .navbar-list ul li {
+padding:10px 5px;
+margin:5px 10px 0 0;
+width: 90px;
+height: 40px;
+border-radius: 5px;
+text-align: center;
+}
+
+header .container .row .navbar .navbar-list ul li:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+header .container .row .navbar .navbar-list ul li a {
+    text-decoration: none;
+    color: rgb(248, 240, 240);
+    font: bold;
+}
+
+header .container .row .navbar .navbar-icon {
+    margin-right: 50px;
+    margin-top:15px;
+}
+
+header .container .row .navbar .navbar-icon a {
+    color: #fff ;
+    display: inline-block;
+    margin-right: 10px;
+}
+#business{
+    position: absolute;
+    top: 200px;
+}
+
+#business .container .row .business-landing-page {
+    color:rgb(26, 23, 23);
+    padding: 50px 20px 0 150px
+}
+
+#business .container .row .business-landing-page h1 {
+    font-size: 50px;
+    line-height: 0.9;
+    margin-bottom: 10px;
+}
+
+#business .container .row .business-landing-page p{
+    line-height: 1.2;
+    margin-bottom: 20px;
+} 
+
+#business .container .row .business-landing-form {
+    margin-left:200px;
+    margin-right: 300px;
+    width: 30vw;
+    height: 42  vh;
+    background-color: #fff;
+}
+
+#business .container .row .business-landing-form form {
+    margin:20px;
+}
+
+#business .container .row .business-landing-form form input {
+    width:100%; 
+    padding: 8px;
+    margin: 10px;
+    margin-left: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 158, 158);
+    color: rgb(158, 158, 158);
+}
+
+#business .container .row .business-landing-form form select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    margin-left: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 158, 158);
+    color: rgb(158, 158, 158);
+}
+
+#business .container .row .business-landing-form form input[type="checkbox"] {
+
+    width: 5%;
+    
+}
+
+#business .container .row .business-landing-form form span {
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 20px ;
+    margin-left: -10px;
+    color: rgb(158, 158, 158);
+}
+
+#business .container .row .business-landing-form form span a {
+    color: rgb(158, 158, 158);
+}
+
+#business .container .row .business-landing-form form .btn {
+    background-color: rgb(1, 2, 1);
+    border:none;
+    padding:10px;
+    color:#fff;
+}
+
+#business .container .row .business-landing-form form .btn:hover {
+    background-color: rgb(163, 60, 0);
+    color:rgb(179, 179, 179);
+}

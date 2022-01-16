@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.font-fam {
+    padding:30px;
+ }
+
+ .font-fam h1,
+ .font-fam h3,
+ .font-fam p{
+     margin-bottom: 20px;
+ }
+
+ .font-fam h1 {
+    text-transform: uppercase;
+ }
+
+ p a {
+     display: inline-block;
+     font-size: 25px;
+     text-decoration: none;
+     color: rgb(189, 189, 189);
+     position: relative;
+ }
+
+ p a::after{
+     position: absolute;
+     content:'';
+     left:0;
+    bottom:-5px ;
+    width: 0;
+    height: 3px;
+    transition: 0.5s;
+    background-color: rgb(189, 189, 189);
+ }
+
+ p a:hover::after {
+     width:100%;
+ }
+
+
+
+
+
+ header {
+     text-align: center;
+     padding: 20px;
+ }
+
+ header h1{
+     font-size: 50px;
+ } 
+
+ header p{
+     margin-top: 5px;
+     color: rgb(141, 141, 141);
+ }
+
+
+
+ main {
+     margin-left: 80px;
+ }
+ main .row {
+     width:90vw;
+     height: 300px;
+     background-color: rgb(72, 255, 255);
+     display: flex;
+     justify-content: center;
+     color: rgb(189, 189, 189);
+ }
+
+ main .row .print-layout {
+     background-color: rgb(20, 102, 102);
+ }
+
+ main .row .text {
+     text-align: center;
+     background-color: #fff;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+
+ }
+
+ main .row .photography {
+     background-color: rgb(255, 187, 0);
+ }
+
+ main .row .printer {
+    text-align: center;
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ main .row .brand-indefity {
+     background-color: rgb(68, 0, 255);
+ }
+
+ main .row .camera {
+    text-align: center;
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
